@@ -1,8 +1,8 @@
 {
   "name": "emeraude-portal-runtime-injection",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Emeraude Portal runtime injection utilities",
-
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Definux/emeraude-portal-runtime-injection-node-package.git"
