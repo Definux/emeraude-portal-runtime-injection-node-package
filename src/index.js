@@ -1,13 +1,20 @@
 ﻿const runtimeInjectionFunctionKey = '__EM_RUNTIME_INJECTION__';
 
-export const RUNTIME_INJECTION_STYLE_FILE_NAME = 'runtime-injection.style.min.css';
+const RUNTIME_INJECTION_STYLE_FILE_NAME = 'runtime-injection.style.min.css';
 
-export const RUNTIME_INJECTION_BUNDLE_FILE_NAME = 'runtime-injection.bundle.min.js';
+const RUNTIME_INJECTION_BUNDLE_FILE_NAME = 'runtime-injection.bundle.min.js';
 
-export const initializeRuntimeInjection = function (runtimeInjectionFunction) {
+const initializeRuntimeInjection = function (runtimeInjectionFunction) {
     window[runtimeInjectionFunctionKey] = runtimeInjectionFunction;
 }
 
-export const getRuntimeInjectionFunction = function () {
+const getRuntimeInjectionFunction = function () {
     return window[runtimeInjectionFunctionKey];
+}
+
+module.exports = {
+    RUNTIME_INJECTION_STYLE_FILE_NAME,
+    RUNTIME_INJECTION_BUNDLE_FILE_NAME,
+    initializeRuntimeInjection,
+    getRuntimeInjectionFunction
 }
