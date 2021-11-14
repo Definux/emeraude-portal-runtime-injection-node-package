@@ -1,5 +1,5 @@
 {
-  "name": "@emeraude/portal-runtime-injection",
+  "name": "@emeraude-framework/portal-runtime-injection",
   "version": "0.1.5",
   "description": "Emeraude Portal runtime injection utilities",
   "main": "src/index.js",
