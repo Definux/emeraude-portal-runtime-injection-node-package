@@ -1,16 +1,16 @@
 {
-  "name": "emeraude-portal-runtime-injection",
-  "version": "0.1.4",
+  "name": "@emeraude/portal-runtime-injection",
+  "version": "0.1.5",
   "description": "Emeraude Portal runtime injection utilities",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Definux/emeraude-portal-runtime-injection-node-package.git"
+    "url": "git+https://github.com/emeraudeframework/portal-runtime-injection.git"
   },
   "keywords": [
     "emeraude", "emeraude-portal"
   ],
-  "author": "Definux",
+  "author": "Georgi Karagogov",
   "license": "MIT",
   "dependencies": {}
 }
