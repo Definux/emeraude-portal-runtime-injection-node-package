@@ -12,5 +12,8 @@
   ],
   "author": "Georgi Karagogov",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
 }
